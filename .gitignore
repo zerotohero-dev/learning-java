@@ -1,0 +1,8 @@
+.gradle
+.DS_Store
+*.swp
+.idea
+*.iml
+build
+lib
+out

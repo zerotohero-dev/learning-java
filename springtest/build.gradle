@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.springframework:spring-context:4.2.2.RELEASE'
+    compile 'org.springframework:spring-jdbc:4.2.2.RELEASE'
+    compile 'aopalliance:aopalliance:1.0'
+    compile 'org.aspectj:aspectjweaver:1.8.7'
+
+    testCompile 'org.springframework:spring-test:4.2.2.RELEASE'
+    testCompile 'junit:junit:4.11'
+}
